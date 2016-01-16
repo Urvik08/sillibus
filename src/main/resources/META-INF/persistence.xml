@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+	<persistence-unit name="jpaPersistenceUnit">
+		<description>My Persistence Unit</description>
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<!--<mapping-file>META-INF/orm.xml</mapping-file>-->
+		<!--<class>com.prayforme.web.model.Users>-->
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="${prayforme.database.url}" />
+			<property name="javax.persistence.jdbc.user" value="${prayforme.database.username}" />
+			<property name="javax.persistence.jdbc.password" value="${prayforme.database.password}" />
+			<property name="javax.persistence.jdbc.driver_class" value="com.mysql.jdbc.Driver" />
+			<!--<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/prayforme" />
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.connection.username" value="${prayforme.database.username}" />
+			<property name="hibernate.connection.password" value="${prayforme.database.password}" />-->
+		</properties>
+	</persistence-unit>
+</persistence>
