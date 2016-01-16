@@ -1,0 +1,19 @@
+h1.cover-heading{
+	margin-top: 190px;
+}
+#dropbox{
+	padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+	width: 35%;
+	height: 200px;
+	display: inline-block;
+}
+
+.top-buffer {
+	margin-top: 20px;
+}
+#login{
+	margin-top: 200%;
+
+}
