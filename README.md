@@ -17,4 +17,4 @@ We didn't give up. It was our front-end guy's first time doing front-end work, a
 
 
 ## What's next for Sillibus
-Get the server up and running and get google calendar in there.
+Get the server up and running and getting google calendar integrated.
